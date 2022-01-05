@@ -44,9 +44,6 @@
                     if (remainingPeople == 0)
                         break;
                 }
-
-                if (remainingPeople == 0)
-                    break;
             }
 
             return cars.Count(c => c.FilledSeats > 0);
